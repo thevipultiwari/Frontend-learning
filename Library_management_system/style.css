@@ -1,0 +1,82 @@
+
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-image: url(library_img.jpeg);
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: rgb(64, 62, 62);
+  padding: 10px;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Better spacing between cards */
+  padding: 20px; 
+}
+
+.css,
+.html,
+.javascript,
+.flexbox {
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  max-width: 200px; /* Limit card size */
+}
+
+.name {
+  color: rgb(119, 114, 105);
+}
+
+.stock {
+  color: rgb(60, 166, 60);
+  font-size: small;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.booktable {
+  margin: 0 auto; /* Center the section */
+  
+  max-width: 90%; /* Responsive width */
+  background-color: #5a4b5a; /* Softer purple */
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  
+   
+}
+
+table {
+  width: 100%; /* Full width inside container */
+  border-collapse: collapse; /* Remove spacing between cells */
+}
+
+th,
+td {
+  border: 1px solid white;
+  text-align: left; /* Align content to the left */
+  padding: 10px;
+}
+
+th {
+  background-color: #444; /* Dark background for header */
+  color: white;
+}

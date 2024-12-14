@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Registration</title>
+  </head>
+  <body>
+    <header>
+      <img src="../Multimedia/new_cn_logo.svg" alt="Coding Ninjas Logo" />
+    </header>
+    <main>
+      <div>
+        <h2>Create an Account</h2>
+        <form action="/register" method="POST">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <br />
+            <label for="fullname">Full Name:</label>
+            <input
+              type="text"
+              name="full-name"
+              id="fullname"
+              placeholder="Enter your full name"
+              required
+            />
+            <br /><br />
+            <label for="mail">Email:</label>
+            <input
+              type="email"
+              name="useremail"
+              id="mail"
+              placeholder="Enter your email"
+              required
+            />
+            <br /><br />
+            <label for="user-name">Username:</label>
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Choose a username"
+              required
+            />
+            <br /><br />
+            <label for="pass-word">Password:</label>
+            <input
+              type="password"
+              name="userpassword"
+              id="pass-word"
+              placeholder="Create a password"
+              required
+            />
+            <br /><br />
+            <label for="userselection">User Type:</label>
+            <select name="user-type" id="userselection" required>
+              <option value="" disabled selected>Select user type</option>
+              <option value="tech">Tech-background</option>
+              <option value="non-tech">Non-Tech-background</option>
+            </select>
+            <br /><br />
+            <label for="courseselection">Select Course:</label>
+            <select name="course-type" id="courseselection" required>
+              <option value="" disabled selected>Select a course</option>
+              <option value="webdev">Web Development</option>
+              <option value="aiml">Data Science</option>
+              <option value="digimarketing">Digital Marketing</option>
+              <option value="appdev">Android Development</option>
+            </select>
+            <br /><br />
+            <button type="submit">Register</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

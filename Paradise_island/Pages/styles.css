@@ -1,0 +1,27 @@
+
+#outer {
+  /* filter-property */
+  filter: opacity(.6);
+  filter: blur(1px);
+  filter: drop-shadow(10px 10px 40px red);
+  filter:hue-rotate(50deg);
+  filter: invert(100%);
+
+  background: #add8e6 url(../Mutlimedia/bg.jpeg) no-repeat
+    center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height:400px;
+  width: 400px;
+}
+#inner {
+  background-color: rgba(255, 255, 255, 0.3);
+  /* backdrop-filter */
+  backdrop-filter:blur(5px);
+  backdrop-filter:invert(100%);
+  backdrop-filter: sepia(80%);
+  padding: 20px;
+  margin: auto;
+  font-weight: bold;
+}

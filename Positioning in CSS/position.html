@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Position in CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+
+    <header><h1>Positioning in css</h1></header>
+    <main>
+      <section>
+        <h2 class="main-heading">Introduction to Position in CSS</h2>
+        <p>
+          Positioning allows us to produce interesting results by overriding
+          normal document flow. What if you want to slightly alter the position
+          of some boxes from their default flow position to give a slightly
+          quirky, distressed feel? Positioning is your tool. Or what if you want
+          to create a UI element that floats over the top of other parts of the
+          page and/or always sits in the same place inside the browser window no
+          matter how much the page is scrolled? Positioning makes such layout
+          work possible.
+        </p>
+
+        <h3 class="sub-heads">Static Position</h3>
+        <p>Static positioning is the default that every element gets</p>
+
+        <h3 class="sub-heads">Relative Position</h3>
+        <p>
+          Relative positioning is the first position type we'll take a look at.
+          This is very similar to static positioning, except that once the
+          positioned element has taken its place in the normal flow, you can
+          then modify its final position, including making it overlap other
+          elements on the page.
+        </p>
+
+        <h3 class="sub-heads">Absolute Position</h3>
+        <p>
+          An absolutely positioned element no longer exists in the normal
+          document flow. Instead, it sits on its own layer separate from
+          everything else. This is very useful: it means that we can create
+          isolated UI features that don't interfere with the layout of other
+          elements on the page.
+        </p>
+
+        <h3 class="sub-heads">Fixed Position</h3>
+        <p>
+          The element is removed from the normal document flow, and no space is
+          created for the element in the page layout. The element is positioned
+          relative to its initial containing block, which is the viewport in the
+          case of visual media. Its final position is determined by the values
+          of top, right, bottom, and left.
+        </p>
+
+        <h3 class="sub-heads">Sticky Position</h3>
+        <p>
+          A stickily positioned element is an element whose computed position
+          value is sticky. It's treated as relatively positioned until its
+          containing block crosses a specified threshold (such as setting top to
+          value other than auto) within its flow root (or the container it
+          scrolls within), at which point it is treated as "stuck" until meeting
+          the opposite edge of its containing block.
+        </p>
+      </section>
+
+      <aside>
+        <h3>Positions in CSS</h3>
+        <ul>
+          <li>Static</li>
+          <li>Relative</li>
+          <li>Absolute</li>
+          <li>Fixed</li>
+          <li>Sticky</li>
+        </ul>
+      </aside>
+    </main>
+    <div id="pop-up">This is a pop us div</div>
+  </body>
+</html>

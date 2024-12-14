@@ -1,0 +1,79 @@
+/* General CSS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*  */
+.container {
+  width: 90%;
+  max-width: 120px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f4a261;
+}
+/* header */
+.header {
+  background: color #333333;
+  color: #ffff;
+  padding: 1rem;
+  overflow: hidden;
+}
+.header.logo {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+.nav ul li a {
+  color: white;
+  transition: color 0.3s;
+}
+.nav ul li a:hover {
+  color: #f4a261;
+}
+/* Hero Section */
+.hero {
+  background-color: #f4a261;
+  color: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+.hero .btn {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1 rem;
+  border-radius: 5px;
+  transition: background 0.3px;
+}
+
+.hero .btn:hover {
+  background-color: #555;
+}
+/* feature */
+.features {
+  padding: 3 rem 0;
+  text-align: center;
+}
+.features-list {
+  margin: 0 auto;
+  width: 100%;
+}
+.feature {
+  display: inline-block;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <img src="../Multimedia/new_cn_logo.svg" alt="Coding Ninjas Logo" />
+      <h2>Login here</h2>
+    </header>
+    <main>
+      <form action="/login" method="POST">
+        <fieldset>
+          <legend>Login Information</legend>
+          <br />
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your username"
+            required
+          />
+          <br /><br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <br /><br />
+          <button type="submit">Login</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

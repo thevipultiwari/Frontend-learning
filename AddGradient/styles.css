@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.head {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 10px; /* Add space between divs */
+}
+
+.sunset {
+  margin: 20px;
+  border: 1px solid wheat;
+  border-radius: 7px;
+  padding: 5px;
+  width: 600px; /* Adjust width as needed */
+  text-align: left; /* Align text inside the div */
+
+}
+.forest {
+  margin: 20px;
+  border: 1px solid wheat;
+  border-radius: 7px;
+  padding: 5px;
+  width: 600px; /* Adjust width as needed */
+  text-align: center; /* Align text inside the div */
+  text-align: left; /* Align text inside the div */
+  background: linear-gradient(to right, rgb(122, 207, 146), rgb(213, 219, 39));
+}
+.flower {
+  margin: 20px;
+  border: 1px solid wheat;
+  border-radius: 7px;
+  padding: 5px;
+  width: 600px; /* Adjust width as needed */
+  text-align: center; /* Align text inside the div */
+  text-align: left; /* Align text inside the div */
+  background: linear-gradient(to right, rgb(178, 12, 40), rgb(183, 173, 165));
+}
+.ocean {
+  margin: 20px;
+  border: 1px solid wheat;
+  border-radius: 7px;
+  padding: 5px;
+  width: 600px; /* Adjust width as needed */
+  text-align: center; /* Align text inside the div */
+  text-align: left; /* Align text inside the div */
+  background: radial-gradient(circle at center, rgb(163, 55, 134), rgb(183, 173, 165));
+}

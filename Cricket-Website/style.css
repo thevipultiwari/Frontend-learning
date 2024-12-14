@@ -1,0 +1,231 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png");
+  background-size: cover;
+  background-attachment: fixed; /* Keeps the background image fixed */
+  background-position: center center; /* Ensures the background is centered */
+  color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(10, 30, 55, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section {
+  text-align: center;
+  top: 80px;
+  margin-top: 0px;
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.hero-section .intro {
+  font-size: 1.5rem;
+  padding: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+.sticky-section {
+  position: sticky; /* Added sticky positioning */
+  top: 0; /* Set to stick at the top */
+}
+
+.key-team {
+  position: sticky;
+  margin: 200px 20px 20px 20px;
+  text-align: center;
+  z-index: 3;
+}
+
+.team-images {
+  position: relative;
+  top: 2pc;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 0px;
+
+  text-align: center;
+}
+
+.team-member img {
+  object-fit: cover;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  display: block;
+  filter: brightness(70%); /* Darkened overlay effect */
+}
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%; /* Match the image width */
+}
+.overlay p {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: 0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+.overlay .rahul {
+  padding: 2px 20px;
+  text-align: center;
+  justify-content: center;
+  bottom: 20px;
+}
+.overlay .coach {
+  bottom: 5px;
+}
+.overlay .bharat {
+  padding: 2px 20px;
+  text-align: center;
+  justify-content: center;
+  bottom: 20px;
+}
+.overlay .b_coach {
+  bottom: 5px;
+}
+.overlay .dilip {
+  padding: 2px 20px;
+  text-align: center;
+  justify-content: center;
+  bottom: 20px;
+}
+.overlay .f_coach {
+  bottom: 5px;
+}
+
+.star-players {
+  z-index: 1;
+  margin: 120px auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-section p {
+  color: white;
+}
+
+.scrollable-players {
+  position: sticky;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 25vh;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.scrollable-players img {
+  z-index: 100;
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.scrollable-players h2,
+p {
+  color: black;
+  font-weight: bolder;
+}
+.scrollable-players p {
+  font-size: 12px;
+}
+
+.ranking-table {
+  text-align: center;
+  margin: 40px;
+}
+
+.ranking-table h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.ranking-table tbody tr:nth-child(odd) {
+  background-color: rgba(10, 30, 55, 0.1); /* Alternating row color */
+}
+table {
+  width: 80%;
+
+  margin: 20px auto;
+
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(10, 30, 55, 0.8);
+  text-align: left;
+}
+td {
+  color: black;
+  background-color: whitesmoke;
+  text-align: left;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(10, 30, 55, 0.8);
+
+  padding: 12px 0;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 10px;
+}
+footer p#ict {
+  font-size: 17px;
+}
