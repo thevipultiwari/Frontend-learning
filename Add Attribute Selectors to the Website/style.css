@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #f2f2f2; 
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff; 
+  padding: 20px; 
+  margin-top: 20px;
+}
+
+/* Room Styling */
+.room {
+  border: 2px solid #00838f; 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff; 
+  width: 250px;
+  display: inline-block;
+}
+
+.room h2 {
+  color: #00838f; 
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.room p.room-type {
+  color: #616161;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.room p.room-price {
+  color: #4caf50; 
+  font-size: 16px;
+}
+[data-type="hotel-table"]{
+  width: 800px;
+  margin: auto;
+}
+[data-type="hotel-table"] th {
+  background-color: #00897b;
+  color: #333;
+  height: 20px;
+}
+[data-type="hotel-table"] td {
+  border: 1px solid #bdbdbd;
+  background-color:#aeafb0;
+  color:black;
+  padding: 8px;
+}

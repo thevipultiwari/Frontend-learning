@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hotel Management System - Home</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Hotel</h1>
+    </header>
+
+    <!-- Room Listings -->
+    <section class="rooms">
+      <article class="room">
+        <h2>Deluxe Room</h2>
+        <p>King Bed</p>
+        <p>$150 per night</p>
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002639_1709045382_Deluxe.jpg"
+          alt="Deluxe Room Image"
+        />
+      </article>
+
+      <article class="room">
+        <h2>Executive Suite</h2>
+        <p>Queen Bed</p>
+        <p>$200 per night</p>
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002640_1709045757_room.jpg"
+          alt="Executive Suite Image"
+        />
+      </article>
+
+      <article class="room">
+        <h2>Family Room</h2>
+        <p>Two Double Beds</p>
+        <p>$180 per night</p>
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002641_1709045771_room2.jpg"
+          alt="Family Room Image"
+        />
+      </article>
+    </section>
+
+    <!-- Reservation Form -->
+    <section class="reservation-form">
+      <h2 id="headingForm">Book Your Stay</h2>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" id="check-in" name="check-in" required />
+
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" id="check-out" name="check-out" required />
+
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </body>
+</html>

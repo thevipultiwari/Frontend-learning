@@ -1,0 +1,32 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* Point to remember */
+/* The styles only apply to tables that 
+explicitly have the attribute data-styled="true". */
+/* This is useful in larger projects or when integrating 
+with frameworks like React, Angular, or Vue, where data-* 
+attributes are commonly used for state or behavior. */
+/* If you add another table without the data-styled="true"
+ attribute, it will not inherit these styles. This helps 
+ maintain styling isolation. */
+[data-styled="true"] {
+  width: 100%; /*Take up the full width of the container */
+  margin-top: 20px; /* Apply a top margin for spacing */
+  border-collapse: collapse; /* Collapse table borders into a single border */
+}
+
+[data-styled="true"] th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+}
+[data-styled="true"] td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
