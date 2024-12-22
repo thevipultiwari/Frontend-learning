@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box {
+    background-color: lightgreen;
+    border:1px dotted green;
+    border-radius:10px;
+    padding: 20px;
+}
