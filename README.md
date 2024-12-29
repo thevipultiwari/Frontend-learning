@@ -1,3 +1,1 @@
-"# flipkart-clone" 
-"# flipkart-clone" 
-"# Frontend-learning" 
+# Frontend-learning
